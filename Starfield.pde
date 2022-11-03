@@ -87,7 +87,7 @@ void setup() {
 }
 
 void draw() {
-  background(20, 10, 70);
+  background(0);
   for (int i = 0; i<patty.length; i++) {
     patty[i].show();
     patty[i].move();
